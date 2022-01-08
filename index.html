@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twodee creative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="hero-section">
+        <header id="cabecera">
+            <h1 class="logo"><span id="llave1">[</span>twodee creative<span id="llave2">]</span></h1>
+            <a href="#" class="telefono"><i class="fas fa-phone"></i></a>
+        </header>
+        <video src="pexels-rostislav-uzunov-10613972.mp4" autoplay="" muted="" loop=""></video>
+        <div class="hero">
+            <h3 class="medium">filmmaking</h3>
+            <h3 class="medium">&</h3>
+            <h1 class="big">photography</h1>
+            <h6 class="small">for families / brands</h6>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <div class="work" id="about">
+                <h1 class="titulo">what whe do</h1>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>Family</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>brands</h3></div>
+                </div>
+                <div class="card media">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>documentary</h3></div>
+                </div>
+            </div>
+            <div class="about">
+                <h3 class="titulo">toode or not twodee</h3>
+                <p class="about-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit commodi optio cupiditate soluta laboriosam blanditiis repudiandae minus sint eius ipsa pariatur quaerat tempore necessitatibus dignissimos a sed nam expedita at, sunt doloribus nisi totam.
+                </p>
+                <p class="about-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit commodi optio cupiditate soluta laboriosam blanditiis repudiandae minus sint eius ipsa pariatur quaerat tempore necessitatibus dignissimos a sed nam expedita at, sunt doloribus nisi totam.
+                </p>
+                <p class="about-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit commodi optio cupiditate soluta laboriosam blanditiis repudiandae minus sint eius ipsa pariatur quaerat tempore necessitatibus dignissimos a sed nam expedita at, sunt doloribus nisi totam.
+                </p>
+                <div class="about-mark">manimup truffles</div>
+            </div>
+            <div class="recent" id="work">
+                <h1 class="titulo">Recent work</h1>
+                <div class="card media">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>tender care</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>late arrivals club run</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>bakkheia wines harvest</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>short & curly</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>you only turn 1 once</h3></div>
+                </div>
+                <div class="card media">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>the 70th</h3></div>
+                </div>
+                <div class="card media">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>geegeelup village</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>stellar violet summers picnic</h3></div>
+                </div>
+                <div class="card cuarto">
+                    <img src="back.png" alt="">
+                    <div class="card-info"><h3>beautiful blessingways</h3></div>
+                </div>
+                <button class="more-work">More work</button>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <h1 class="contact-titulo">contact us</h1>
+        <form action="" class="form-contact">
+            <input type="text" name="" id="" placeholder="nombre">
+            <input type="text" name="" id="" placeholder="telefono">
+            <input type="text" name="" id="" placeholder="email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+            <input type="submit" value="submit">
+        </form>
+        <div class="social">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-youtube"></i></span>
+        </div>
+        <div class="tel"><a href="#"><i class="fas fa-phone"></i>0424-2389260</a></div>
+    </section>
+    <footer>
+        <span>copyright © 2021 twodee creative</span>
+    </footer>
+    <script>
+        let video = document.querySelector('video');
+        let menu = document.getElementById('cabecera');
+        let llave1 = document.getElementById('llave1');
+        let llave2 = document.getElementById('llave2');
+        window.addEventListener('load', function(){
+            llave1.style.opacity = 1;
+            llave2.style.opacity = 1;
+        })
+        window.addEventListener('scroll', function(){
+            let value = 1 + window.scrollY/ -500;
+            video.style.opacity = value;
+            if(window.pageYOffset > 0){
+                menu.classList.add('fixed');
+            }
+            else{
+                menu.classList.remove('fixed');
+            }
+        })
+    </script>
+</body>
+</html>
